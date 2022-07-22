@@ -1,0 +1,48 @@
+﻿{
+    "active": true,
+    "DateBaseName": "DBTarget",
+    "colorPreset": 1,
+    "num": 4,
+    "targetList": [
+        {
+            "attribute": {
+                "repeat": true,
+                "Period": "今日のおやつ",
+                "amount": 1000,
+                "kind": "支出",
+                "active": true
+            },
+            "id": 0
+        },
+        {
+            "attribute": {
+                "repeat": true,
+                "Period": "今週",
+                "amount": 100000,
+                "kind": "支出",
+                "active": true
+            },
+            "id": 1
+        },
+        {
+            "attribute": {
+                "repeat": true,
+                "Period": "今月",
+                "amount": 500000,
+                "kind": "支出",
+                "active": false
+            },
+            "id": 2
+        },
+        {
+            "attribute": {
+                "repeat": false,
+                "Period": "今年",
+                "amount": 10000000,
+                "kind": "支出",
+                "active": true
+            },
+            "id": 3
+        }
+    ]
+}
